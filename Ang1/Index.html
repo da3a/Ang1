@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body ng-app="App">
+    <script src="app/HelloWorld.js"></script>
+    <input value="click me" onclick="Ang1.sayHello()" type="button"/>
+    <script>
+        var Greeter = new Ang1.Greeter();
+        //Greeter.Greet("david");
+    </script>
+    <div class="container">
+        <div ng-include="'app/components/products/productListView.html'"></div>
+    </div>
+    <script src="Scripts/jquery-2.1.4.js"></script>
+    <script src="Scripts/angular.js"></script>
+    <script src="app/app.js"></script>
+    <script src="app/components/products/productListCtrl.js"></script>
+
+</body>
+</html>
